@@ -1,8 +1,289 @@
-<html>
-  <head>
-    <title>Hi</title>
-  </head>
- <body>
-   Work in Progress... Will update the website soon...
-  </body>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">    
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Tarun Singh</h1>
+            <h2><i>Final Year BTech Student @ IIT Bhilai</i></h2>
+            <a href="https://github.com/TarunSingh28/TarunSingh28.github.io/blob/main/resume_singhtaruniit_web.pdf" class="btn-rounded-white">Check out my Resume!</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Hey! I am Tarun Singh, currently in my Final Year of BTech at IIT Bhilai. 
+                        I have a profound interest in programming and have a good knowledge of many areas of Computer Science like Web Development, Cryptography, etc. 
+                        However, my major interest lies in the field of AI & ML where I am also currently working on a research project.
+                        I also have some experience in Competitive Programming as well. Apart from coding, I like watching movies, reading books, and listening to random music...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience & Research</h2>
+        <div id="experience-timeline">
+            <div data-date="December 2022 – Now">
+                <h3>Improving QuestionAnswering <i style="color: rgb(48, 46, 46);">(Research Project)</i></h3>
+                <h4>Under Dr. Soumajit Pramanik and his Colleagues</h4>    
+                <p>
+                    Developing a system to re-rank documents based on queries to give better and more relevant search results using a combination of Natural Language Processing & Information Retrieval techniques involving Graph Convolutional Networks, Knowledge Graph Entities, LSTMs and using MS-MARCO as the primary dataset.
+                </p>
+                <a href = "https://github.com/edwardgiamphy/Passage_ranking-">Here is the GitHub Link</a>
+            </div>
+            <div data-date="May 2022 – July 2022">
+                <h3>Arista Networks</h3>
+                <h4>Software Engineering Intern (Summer 2022)</h4>
+                <p>
+                    Research, Development & Testing of new Wireless Intrusion Prevention System (WIPS) mechanisms to sever unauthorized connections between Access Points(APs) and Clients in a Network since the methods that were used with the 802.11 standard would not work after the 802.11w amendment which introduces Protected Management Frames (PMF).
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Indian Institute of Technology (IIT), Bhilai</h3>
+            <span class="education-date">July 2019 - May 2023 (Expected)</span>
+            <h4>Bachelor of Technology in Electrical Engineering</h4>
+            <p>
+                <b>Current CGPA: 8.26 / 10</b><br>
+                <b>Some Coursework:</b><br>
+                Artificial Intelligence, Natural Language Processing, Data Analytics and Visualisation, Information Retrieval, Data Structures & Algorithms, Operating Systems, Linear Algebra, Calculus
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Delhi Public School, Kalyanpur</h3>
+            <span class="education-date">- 2019</span>
+            <h4>High School & Intermediate (CBSE Board)</h4>
+            <ul>
+                <li>
+                    <b>Class 12th Result: 95.6%<b>
+                </li>
+                <li>
+                    Class 10th Result: 10 CGPA
+                </li>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+
+                <div class="project shadow-large">
+                    <div class="project-image" style="height: 7.5cm;">
+                        <img src="images/project.jpg" style="width: 8cm; margin-top: 1.4cm; height: 5cm; margin-left: 0.3cm;" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>AI Sudoku-Solver</h3>
+                        <h4 style="margin: 4%;">Deep Learning & Computer Vision</h4>
+                        <p style="text-align:left;">
+                            Developed a Python application to detect Sudoku from an image, and output a solution using Deep Learning Computer Vision technologies. Tensorflow and Keras were used to generate a model based on Neural Networks for the recognition of Digits from Sudoku. Used OpenCV library to read images and implemented Contour Detection to identify Sudoku from the image. Currently working on improving digit recognition accuracy of the Model by improving the training dataset.
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image" style="height: 7cm;">
+                        <img src="images/project.jpg" style="width: 8cm; margin-top: 1cm; height: 5cm; margin-left: 0.3cm;" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Multimedia Encryption 
+                        </h3>
+                        <h4 style="margin: 4%;">Cryptography</h4>
+                        <p style="text-align:left">
+                            Implemented the GIFT-64 cipher from scratch and used it to perform Audio, Image and Text encryption / decryption. Used Python Wave module and base64 encoding to convert audio to binary data and break it into suitable block lengths for encryption / decryption.
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image" style="height: 7cm;">
+                        <img src="images/project.jpg" style="width: 8cm; margin-top: 1cm; height: 5cm; margin-left: 0.3cm;" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Django WebApp 
+                        </h3>
+                        <h4 style="margin: 4%;">Web Development</h4>
+                        <p style="text-align:left">
+                            Created a To-Do list web application using Python and Django Framework for back-end and HTML5, CSS3 for front-end. Used class-based views rather than function-based views to reduce code redundancy. Included Search, Delete, Update functionality for the items in the list and also added Login/Registration feature for users.
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image" style="height: 7cm;">
+                        <img src="images/project.jpg" style="width: 8cm; margin-top: 1cm; height: 5cm; margin-left: 0.3cm;" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>CustomSHELL
+                        </h3>
+                        <h4 style="margin: 4%;">Operating Systems</h4>
+                        <p style="text-align:left">
+                            Created a simple, custom shell using C language that utilises fork() and exec() system calls to handle processes. Also implemented Piping ('|') and Output Redirection ('>') functionalities by adjusting File Descriptors and using dup2() system calls.
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>Java</li>
+            <li>C/C++</li>
+            <li>SQL</li>
+            <li>Linux</li>
+            <li>Tensorflow</li>
+            <li>Keras</li>
+            <li>OpenCV</li>
+            <li>Django</li>
+            <li>Scikit-Learn</li>
+            <li>Docker</li>
+            <li>GIT</li>
+            <li>LaTEX</li>
+            <li>Research</li>
+            <li>Machine Learning</li>
+            <li>Computer Vision</li>
+            <li>Natural Language Processing</li>
+            <li>English Fluency</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="skills">
+        <h2 class="heading">Some Coursework</h2>
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li>Natural Language Processing</li>
+            <li>Machine Learning</li>
+            <li>Information Retrieval</li>
+            <li>Operating Systems</li>
+            <li>Database Management Systems</li>
+            <li>Data Analytics & Visualisation</li>
+            <li>Cryptography</li>
+            <li>Blockchain Technologies</li>
+            <li>Linear Algebra</li>
+            <li>Probability & Statistics</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+
+    <div id="contact" style="background-color: rgb(231, 246, 254);">
+        <h2 style="color: #5353d6;"><b>Get in Touch</b></h2>
+        e-mail --> singh.tarun.iit@gmail.com <br>
+        another e-mail --> taruns@iitbhilai.ac.in<br>
+        github --> <a href = "https://github.com/TarunSingh28">TarunSingh28</a><br>
+        linkedin --> <a href = "https://www.linkedin.com/in/tarun-singh-287a3b199/">https://www.linkedin.com/in/tarun-singh-287a3b199/</a>
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-14 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
